@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{margin: 0;
+padding: 0;}
+body{
+    font-family: "Noto Sans", sans-serif;
+    background-color: rgba(32, 12, 52, 0.955);
+}
+nav{
+    height: 100px;
+    background-color: rgb(14, 14, 48);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 400px;
+}
+nav h1{
+    margin-left: 30px;
+    color: aliceblue;
+}
+nav .sidebar2{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+    margin-right: 20px;
+    color: aliceblue;
+}
+nav ul li:hover{color: blueviolet;
+}
+.yuxsag{
+    position: relative;
+    display: flex;
+    right: 50px;
+    flex-direction: row;
+    align-items: center;
+}
+.yuxsag i{
+    margin-right: 10px;
+    color: aliceblue;
+}
+.yuxsag button{
+    -webkit-box-shadow: 1px 2px 0px 6px rgba(199,187,197,0.18);
+    -moz-box-shadow: 1px 2px 0px 6px rgba(199,187,197,0.18);
+    box-shadow: 1px 2px 0px 6px rgba(199,187,197,0.18);
+    border-radius: 10px;
+    height: 35px;
+    width: 90px;
+    border: none;
+    color: aliceblue;
+    background: linear-gradient(to right,rgb(79, 0, 113),rgb(197, 86, 191));
+}
+.basliq .basliq1{margin-top: 30px;
+    
+}
+.basliq{
+    -webkit-box-shadow: 1px 2px 0px 6px rgba(199,187,197,0.18);
+    -moz-box-shadow: 1px 2px 0px 6px rgba(199,187,197,0.18);
+    box-shadow: 1px 2px 0px 6px rgba(199,187,197,0.18);
+    border-radius: 10px;
+    margin-top: 40px;
+    background: linear-gradient(to right,rgb(79, 0, 113),rgb(197, 86, 191));
+    height: 240px;
+    width: 1000px;
+    background-color: blue;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+}
+.basliq{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.basliq ul li{
+    color: rgba(237, 226, 226, 0.822);
+    position: relative;
+    left: 35px;
+    font-size: 12px;
+    margin-left: 10px;
+    
+   
+}
+.basliq p{
+    font-size: 12px;
+    color: rgba(237, 226, 226, 0.822);
+
+}
+.basliq1{
+    text-align: center;
+    margin-top: 10px;
+}
+.basliq1 h1{
+    font-size: 35px;
+}
+.basliq ul{
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+   
+}
+.basliq2{
+    margin-top: 47px;
+}
+.basliq2 .iconlar{margin-top: 10px;}
+
+
+.basliq2 i{
+    transition: 0.6s;
+    border-radius: 15px;
+    padding: 7px;
+    height: 14px;
+    width: 16px;
+    background-color: rgba(237, 226, 226, 0.265);
+}
+
+
+.basliq2 i:nth-child(1):hover{
+    background-color: blue;
+   
+    
+    
+}
+.basliq2 i:nth-child(2):hover{
+    background-color: aliceblue;
+    color: rgb(17, 168, 233);
+}
+.basliq2 i:nth-child(3):hover{
+    background-color: rgb(67, 67, 193);
+}
+.basliq2 i:nth-child(4):hover{
+    color: red;
+    background-color: aliceblue;
+    
+}
+.container{
+    
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+  
+  .orta{
+     margin-left: 190px;
+  }
+ 
+    .orta .basliq6 {
+        width: 120px;
+        height: 30px;
+        border-radius: 15px;
+        -webkit-box-shadow: inset 0px 0px 8px -1px rgba(60,43,87,1);
+        -moz-box-shadow: inset 0px 0px 8px -1px rgba(60,43,87,1);
+        box-shadow: inset 0px 0px 8px -1px rgba(60,43,87,1);
+  }
+  .basliq .basliq1 .xett{
+    position: absolute;
+    left: 717px;
+    margin-top: 30px;
+    background-color: rgba(240, 248, 255, 0.167);
+    border-radius: 10px;
+    width: 100px;
+    height: 2px;
+}
+
+
+.orta .ortasol{
+  float: left;
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+      gap: 15px;
+  color: aliceblue;
+  
+  
+}
+
+.orta .ortasol .basliq6 h6{
+    padding: 6px;
+    text-align: center;
+    background: #D7BFFF;
+    background: linear-gradient(to left, #D7BFFF 0%, #420AA3 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+   font-size: 13px;
+    
+   
+
+}
+
+.orta .basliq6 {
+    
+    width: 140px;
+ height: 30px;
+ border: 0.1px solid rgb(61, 17, 115);
+ 
+    border-radius: 15px;
+    -webkit-box-shadow: inset 0px 0px 8px -1px rgba(60,43,87,1);
+    -moz-box-shadow: inset 0px 0px 8px -1px rgba(60,43,87,1);
+    box-shadow: inset 0px 0px 8px -1px rgba(60,43,87,1);
+} 
+
+.orta .ortasol p{
+    max-width:500px;
+}
+
+.orta .ortasol h1{
+    font-size: 50px;
+}
+.ortasag .yuxsag{
+    height: 130px;
+    width: 100px;
+    border-radius:25px ;
+    left:600px;
+    bottom: 470px;
+}
+.ortasag  img:nth-child(4){
+    animation:yuxariasgisag 5s ease-in-out infinite;
+    transition-delay:3s;
+}
+.ortasag .orta{
+    animation: boyume 5s ease-in-out infinite;
+}
+.ortasag  img:nth-child(2){
+    animation:sagsol 5s ease-in-out infinite;
+}
+.ortasag img:nth-child(3){
+    animation:sagsol 5s ease-in-out infinite ;
+}
+.ortasag .orta {
+    left: 60px;
+    height: 470px;
+    width: 400px;
+}
+.ortasag{
+    float: right;
+    width: 700px;
+    margin-top: 130px;
+}
+.ortasag img{
+    position: relative;
+    height: 200px;
+    border-radius: 60px;
+    width: 500px;
+}
+.ortasag .asagsol{
+    
+    bottom: 290px;
+    height: 300px;
+    width: 260px;
+}
+.ortasag .asagsag{
+    z-index: -1;
+    left: 230px;
+    height:250px;
+    bottom: 260px;
+    width: 200px;
+}
+@keyframes yuxariasgisag{
+   
+    50% {
+        transform: translateX(-50px); /* Yukarı çıkma mesafesi */
+    }
+
+}
+@keyframes sagsol{
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(50px); /* Yukarı çıkma mesafesi */
+    }
+    
+}
+@keyframes boyume {
+    0% {
+        transform: scale(1); /* Normal boyut */
+      }
+      50% {
+        transform: scale(1.1); /* %20 büyüme */
+      }
+    
+}
+.kvadrat .say{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient( to right, rgb(97, 46, 174) ,rgb(127, 67, 176), rgb(150, 120, 224) , white);
+    color: aliceblue;
+    border-radius: 15px;
+    width: 1000px;
+    height: 160px ;
+    gap: 20px;
+  }
+
+  .kvadrat .user{
+    margin-top: 30px;
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+
+  .kvadrat .line{
+    position: relative;
+    top: 50px;
+    background-color: rgba(240, 248, 255, 0.167);
+    border-radius: 10px;
+    height: 60px;
+    width: 2px;
+    
+}
+
+.kvadrat .user i{
+   
+    background-color: aliceblue;
+    color: #7c54c0;
+    border-radius: 45px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.kvadrat span{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.kvadrat p{
+    font-size: small;
+}
+
+.kvadrat .ncf img{
+  height: auto;
+  width: 400px;
+}
+
+.kvadrat .ncf{
+    float: right;
+    position: relative;
+    left: 210px;
+    bottom: 160px;
+}
+.sira{
+    margin-top: 200px;
+    align-items: center
+}
+.sira ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: aliceblue;
+    transition-delay: 5s;
+}
+.sira ul li{
+    border-radius: 7px;
+    padding: 8px;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    background-color:rgba(211, 211, 211, 0.065);
+
+}
+.sira ul li:hover{
+    background: linear-gradient( to right, rgb(97, 46, 174) ,rgb(127, 67, 176), rgb(150, 120, 224) , white);
+  
+}
+.flex{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.flex ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 9px;
+}
+.flex ul li i{
+    margin-left:160px;
+}
+.flex ul li{
+    cursor: pointer;
+    padding: 8px;
+    background-color:rgba(211, 211, 211, 0.065);
+    color: aliceblue;
+}
+.xett{
+    margin-top: 20px;
+    background-color:rgba(211, 211, 211, 0.065);
+    height: 2px;
+    width: 130vh;
+}
+.altbasliq{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    align-items: center;
+    
+    margin-top: 50px;
+    gap: 15px;
+}
+
+.altbasliq h6{
+    font-weight: 200;
+  
+}
+.altbasliq input{
+    background-color: rgba(240, 248, 255, 0.192);
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.altbasliq button{
+    color: aliceblue;
+    background: linear-gradient( to right, rgb(97, 46, 174) ,rgb(127, 67, 176), rgb(150, 120, 224) , white);
+    border-radius: 6px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-size: 14px;
+}
+
+.altbasliq p{
+    font-size: 22px;
+}
+/*indide burda iconumuza stayl vereciyik
+*/
+.navbar1{
+        display: none;
+        color: rgb(44, 134, 214);
+    margin-left: 20px;
+    /*indide  biz ele bir sey yazaciyiqki hemin icon yox olacaq*/
+   
+}
+.sidebar{
+    background-color: rgb(14, 14, 48);
+    position: fixed;
+    top: 80px;
+    left: -250px;
+    height: 46vh;
+    width: 130px;
+    flex-direction: column;
+    margin-top: 20px;
+    transition: left 0.3s ease;
+    z-index: 999px;
+}
+.sidebar.active{
+    left: 0;
+}
+.sidebar li{
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.navbar1{
+position: fixed;
+left: 0;
+
+}
+
+.navbar2{
+    display: none;
+    margin-left: 20px;
+    
+}
+
+
+.sidebar li{ 
+    color:rgb(255, 255, 255);
+}
+
+@media(max-width: 768px) {
+    .navbar2{
+        display: block;
+    }
+    .basliq{
+        width: 650px;
+    }
+    body{
+        overflow-x: hidden;
+        width: 768px;
+    }
+    nav{
+        
+        width: 760px;
+    }
+    .basliq .basliq1 .xett{
+      position: absolute;
+     left: 330px;
+    }
+    .navbar {
+        margin-left: 40px;
+        display: inline-block; /* Hamburger menüyü göster */
+    }
+    nav .sidebar2{
+        display: none;
+        
+    }    
+    nav{
+        display: flex;
+        justify-content: space-between;}
+        
+.orta .ortasol{
+ margin-right: 0;
+ margin-left: 90px;
+}
+
+.orta .ortasag{
+margin-right: 150px;
+} 
+.ortasag .yuxsag{
+   position: relative;
+    left: 400px;
+}
+.ortasag .orta{
+ margin: 0;
+}
+.ortasag img{
+ position: relative;
+}
+.orta{
+ flex-direction: column;
+ align-items: center;
+}
+
+.kvadrat .say{
+    height: 900px;
+ width: 100vh;
+ display: flex;
+ flex-direction: column;
+}
+.say .ncf{
+    top: 31px;
+    left: 200px;
+
+}
+.flex{
+    flex-direction: column;
+}
+}
+ 
